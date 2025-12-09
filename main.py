@@ -1,6 +1,6 @@
-from string_utils import parse_chemical_reaction, count_atoms_in_reaction
-from equation_utils import build_equations, my_solve
-
+from string_utils import split_by capitals, split_at_ number, parse_chemical_reaction, count_atoms_in_molecule, count_atoms_in_reaction 
+from equation_utils import ELEMENTS, generate_equation_for_element, build_equations, my_solve
+from sympy import eq, symbols, slove
 
 def balance_reaction(reaction): #"Fe2O3 + H2 -> Fe + H2O"
 
